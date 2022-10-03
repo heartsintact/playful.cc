@@ -172,13 +172,13 @@
               Utilities:Create("TextLabel", {
                   Name = "BottomText",
                   Text = WindowArgs.Text,
-		  RichText = true,
+		          RichText = true,
                   Size = UDim2.new(1, -10, 0, 24),
                   BackgroundTransparency = 1,
                   Position = UDim2.new(0, 8, 0, 0),
                   TextXAlignment = Enum.TextXAlignment.Left,
                   TextSize = 13,
-                  Font = Enum.Font.SourceSansBold,
+                  Font = Enum.Font.Ubuntu,
                   TextColor3 = Colors.PrimaryText,
                   ZIndex = 4
               })
@@ -345,7 +345,7 @@
           BackgroundTransparency = 1,
           Size = UDim2.new(1, 0, 1, 0),
           Text = TabArgs.Text,
-          Font = Enum.Font.SourceSansBold,
+          Font = Enum.Font.Ubuntu,
           TextColor3 = Colors.SecondaryText,
           TextSize = 14,
           ZIndex = 2
@@ -473,7 +473,7 @@
           TextSize = 14,
           BackgroundTransparency = 1,
           TextColor3 = Colors.PrimaryText,
-          Font = Enum.Font.SourceSansBold,
+          Font = Enum.Font.Ubuntu,
           ZIndex = 2
       }),
       Utilities:Create("Frame", {
@@ -541,7 +541,7 @@
             Name = "CheckText",
             Text = CheckArgs.Text,
             TextSize = 13,
-            Font = Enum.Font.SourceSansBold,
+            Font = Enum.Font.Ubuntu,
             Size = UDim2.new(0, 14, 0, 14),
             TextXAlignment = Enum.TextXAlignment.Left,
             Position = UDim2.new(0, 20, 0, 0),
@@ -629,7 +629,7 @@
             Name = "ButtonText",
             Size = UDim2.new(1, 0, 1, 0),
             Text = Info.Text,
-            Font = Enum.Font.SourceSansBold,
+            Font = Enum.Font.Ubuntu,
             BackgroundTransparency = 1,
             TextSize = 13,
             TextColor3 = Colors.PrimaryText
@@ -720,7 +720,7 @@
             Name = "SliderValueText",
             Text = tostring(Info.Default)..Info.Postfix,
             TextSize = 13,
-            Font = Enum.Font.SourceSansBold,
+            Font = Enum.Font.Ubuntu,
             Size = UDim2.new(1, 0, 0, 14),
             TextColor3 = Color3.fromRGB(255, 255, 255),
             BackgroundTransparency = 1
@@ -734,7 +734,7 @@
             Name = "SliderText",
             Text = Info.Text,
             TextSize = 13,
-            Font = Enum.Font.SourceSansBold,
+            Font = Enum.Font.Ubuntu,
             Size = UDim2.new(1, 0, 0, 14),
             TextXAlignment = Enum.TextXAlignment.Left,
             Position = UDim2.new(1, 6, 0, 0),
@@ -822,7 +822,7 @@ end)
             Size = UDim2.new(0, 286, 0, 14),
             TextXAlignment = Enum.TextXAlignment.Left,
             TextSize = 13,
-            Font = Enum.Font.SourceSansBold
+            Font = Enum.Font.Ubuntu
         })
     })
 
@@ -873,7 +873,7 @@ end)
                 Position = UDim2.new(0, 4, 0, 0),
                 TextSize = 13,
                 TextColor3 = Colors.TertiaryText,
-                Font = Enum.Font.SourceSansBold,
+                Font = Enum.Font.Ubuntu,
                 ZIndex = 2
             }),
             Utilities:Create("TextButton", {
@@ -978,7 +978,7 @@ end)
                 TextSize = 13,
                 BackgroundTransparency = 1,
                 TextColor3 = Colors.PrimaryText,
-                Font = Enum.Font.SourceSansBold,
+                Font = Enum.Font.Ubuntu,
                 ZIndex = 3
             }),
             Utilities:Create("TextButton", {
@@ -1032,5 +1032,4 @@ end)
   
   return WindowTable
   end
-
   return library
