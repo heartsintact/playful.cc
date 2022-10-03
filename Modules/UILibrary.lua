@@ -172,6 +172,7 @@
               Utilities:Create("TextLabel", {
                   Name = "BottomText",
                   Text = WindowArgs.Text,
+		  RichText = true,
                   Size = UDim2.new(1, -10, 0, 24),
                   BackgroundTransparency = 1,
                   Position = UDim2.new(0, 8, 0, 0),
