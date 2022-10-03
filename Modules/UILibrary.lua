@@ -85,7 +85,7 @@
   --//
   
   --// Colors --//
-  local Colors = {
+  local Colors = _G.Colors or {
       Primary = Color3.fromRGB(27, 25, 27),
       Secondary = Color3.fromRGB(42, 40, 42),
       Tertiary = Color3.fromRGB(74, 73, 74),
